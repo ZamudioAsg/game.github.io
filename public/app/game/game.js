@@ -523,7 +523,7 @@ var GameApp;
                 _super.apply(this, arguments);
             }
             Preloader.prototype.preload = function () {
-                var assets = 'app/game/assets/';
+                var assets = 'public/app/game/assets/';
                 var text = this.game.add.text(this.game.world.centerX, this.game.world.centerY, "Loading...", {
                     font: "65px Arial",
                     fill: "#ff0044",
